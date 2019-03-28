@@ -35,7 +35,7 @@ class SectionLogin extends React.Component {
                     <div className={classes.socialLine}>
                       <Button
                         justIcon
-                        href="#pablo"
+                        href="#"
                         target="_blank"
                         color="transparent"
                         onClick={e => e.preventDefault()}
@@ -44,7 +44,7 @@ class SectionLogin extends React.Component {
                       </Button>
                       <Button
                         justIcon
-                        href="#pablo"
+                        href="#"
                         target="_blank"
                         color="transparent"
                         onClick={e => e.preventDefault()}
@@ -53,7 +53,7 @@ class SectionLogin extends React.Component {
                       </Button>
                       <Button
                         justIcon
-                        href="#pablo"
+                        href="#"
                         target="_blank"
                         color="transparent"
                         onClick={e => e.preventDefault()}
