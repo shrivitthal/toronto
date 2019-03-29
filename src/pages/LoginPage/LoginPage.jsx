@@ -9,6 +9,7 @@ import LockOutlined from "@material-ui/icons/LockOutlined";
 // React icons
 import {FaFacebook, FaTwitter, FaGooglePlusG } from 'react-icons/fa';
 // core components
+import Head from './../../Head/Head'
 import Header from "components/Header/Header.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -46,6 +47,7 @@ class LoginPage extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+        <Head/>
         <Header
           absolute
           color="transparent"

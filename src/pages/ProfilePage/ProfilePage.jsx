@@ -10,6 +10,7 @@ import Favorite from "@material-ui/icons/Favorite";
 // React icons
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 // core components
+import Head from './../../Head/Head'
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import Button from "components/CustomButtons/Button.jsx";
@@ -45,6 +46,7 @@ class ProfilePage extends React.Component {
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
+        <Head/>
         <Header
           color="transparent"
           brand="Material Kit React"
