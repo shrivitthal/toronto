@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/SVHM--TESTING`,
+  pathPrefix: `/SVHM`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
@@ -12,7 +12,7 @@ module.exports = {
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
-        start_url: '/SVHM--TESTING/',
+        start_url: '/SVHM/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
