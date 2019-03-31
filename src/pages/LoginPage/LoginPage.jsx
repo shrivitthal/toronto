@@ -44,7 +44,7 @@ class LoginPage extends React.Component {
     );
   }
   render() {
-    const { classes, ...rest } = this.props;
+    const { location, classes, ...rest } = this.props;
     return (
       <div>
         <Head/>

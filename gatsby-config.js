@@ -2,12 +2,13 @@ module.exports = {
   pathPrefix: `/SVHM`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
+    siteUrl: 'https://ali126191.github.io'
   },
   plugins: [
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    // `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

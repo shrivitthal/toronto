@@ -24,7 +24,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import navbarsStyle from "assets/jss/material-kit-react/views/componentsSections/navbarsStyle.jsx";
 
 import image from "assets/img/bg.jpg";
-import profileImage from "assets/img/faces/avatar.jpg";
+// import profileImage from "assets/img/faces/avatar.jpg";
 
 class SectionNavbars extends React.Component {
   render() {
@@ -309,7 +309,7 @@ class SectionNavbars extends React.Component {
                       dropdownHeader="Dropdown Header"
                       buttonText={
                         <img
-                          src={profileImage}
+                          // src={profileImage}
                           className={classes.img}
                           alt="profile"
                         />

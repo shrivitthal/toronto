@@ -11,8 +11,8 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
-import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
+// import landing from "assets/img/landing.jpg";
+// import profile from "assets/img/profile.jpg";
 
 class SectionExamples extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class SectionExamples extends React.Component {
             <GridItem xs={12} sm={12} md={6}>
               <Link to="/landing-page" className={classes.link}>
                 <img
-                  src={landing}
+                  // src={landing}
                   alt="..."
                   className={
                     classes.imgRaised +
@@ -42,7 +42,7 @@ class SectionExamples extends React.Component {
             <GridItem xs={12} sm={12} md={6}>
               <Link to="/profile-page" className={classes.link}>
                 <img
-                  src={profile}
+                  // src={profile}
                   alt="..."
                   className={
                     classes.imgRaised +

@@ -8,7 +8,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 // React icons
 import { FaPlay } from 'react-icons/fa';
-
 // core components
 import Head from './../../Head/Head'
 import Header from "components/Header/Header.jsx";
@@ -30,7 +29,7 @@ const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { location, classes, ...rest } = this.props;
     return (
       <div>
         <Head/>

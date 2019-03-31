@@ -17,7 +17,7 @@ import Primary from "components/Typography/Primary.jsx";
 import Muted from "components/Typography/Muted.jsx";
 import Quote from "components/Typography/Quote.jsx";
 import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
-import image from "assets/img/faces/avatar.jpg";
+// import image from "assets/img/faces/avatar.jpg";
 class SectionTypography extends React.Component {
   render() {
     const { classes } = this.props;
@@ -148,7 +148,7 @@ class SectionTypography extends React.Component {
               <GridItem xs={12} sm={2}>
                 <h4>Rounded Image</h4>
                 <img
-                  src={image}
+                  // src={image}
                   alt="..."
                   className={classes.imgRounded + " " + classes.imgFluid}
                 />
@@ -156,7 +156,7 @@ class SectionTypography extends React.Component {
               <GridItem xs={12} sm={2} className={classes.marginLeft}>
                 <h4>Circle Image</h4>
                 <img
-                  src={image}
+                  // src={image}
                   alt="..."
                   className={classes.imgRoundedCircle + " " + classes.imgFluid}
                 />
@@ -164,7 +164,7 @@ class SectionTypography extends React.Component {
               <GridItem xs={12} sm={2} className={classes.marginLeft}>
                 <h4>Rounded Raised</h4>
                 <img
-                  src={image}
+                  // src={image}
                   alt="..."
                   className={
                     classes.imgRaised +
@@ -178,7 +178,7 @@ class SectionTypography extends React.Component {
               <GridItem xs={12} sm={2} className={classes.marginLeft}>
                 <h4>Circle Raised</h4>
                 <img
-                  src={image}
+                  // src={image}
                   alt="..."
                   className={
                     classes.imgRaised +
