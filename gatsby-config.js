@@ -9,6 +9,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -22,6 +23,12 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
         include_favicon: true, // Include favicon
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
       },
     },
     'gatsby-plugin-offline',

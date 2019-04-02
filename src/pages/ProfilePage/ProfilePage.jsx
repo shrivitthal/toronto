@@ -37,7 +37,7 @@ import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.js
 
 class ProfilePage extends React.Component {
   render() {
-    const { location, classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props;
     const imageClasses = classNames(
       classes.imgRaised,
       classes.imgRoundedCircle,

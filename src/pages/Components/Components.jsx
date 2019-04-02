@@ -23,7 +23,6 @@ import SectionPills from "./Sections/SectionPills.jsx";
 import SectionNotifications from "./Sections/SectionNotifications.jsx";
 import SectionTypography from "./Sections/SectionTypography.jsx";
 import SectionJavascript from "./Sections/SectionJavascript.jsx";
-import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
 import SectionLogin from "./Sections/SectionLogin.jsx";
 import SectionExamples from "./Sections/SectionExamples.jsx";
@@ -34,7 +33,7 @@ import componentsStyle from "assets/jss/material-kit-react/views/components.jsx"
 
 class Components extends React.Component {
   render() {
-    const { location, classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props;
     return (
       <div>
         <Head/>
@@ -72,7 +71,6 @@ class Components extends React.Component {
           <SectionNotifications />
           <SectionTypography />
           <SectionJavascript />
-          <SectionCarousel />
           <SectionCompletedExamples />
           <SectionLogin />
           <GridItem md={12} className={classes.textCenter}>
