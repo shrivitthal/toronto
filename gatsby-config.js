@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/svhm`,
+  pathPrefix: `/svhm2`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
     siteUrl: 'https://ali126191.github.io'
@@ -15,7 +15,7 @@ module.exports = {
       options: {
         name: `GatsbyJS`,
         short_name: `GatsbyJS`,
-        start_url: `/svhm/`,
+        start_url: `/svhm2/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
