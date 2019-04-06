@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{162:function(n,e,t){"use strict";t.r(e);var u=t(0),a=t.n(u);e.default=function(){return a.a.createElement("h1",null,"Bee")}}}]);
+//# sourceMappingURL=component---src-account-pages-bee-js-59a1f632b23f5b7cd217.js.map
