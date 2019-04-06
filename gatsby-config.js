@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: `/svhm2`,
+  pathPrefix: `/toronto`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
-    siteUrl: 'https://ali126191.github.io'
+    siteUrl: 'https://shrivitthal.github.io'
   },
   plugins: [
     'gatsby-plugin-resolve-src',
@@ -15,7 +15,7 @@ module.exports = {
       options: {
         name: `GatsbyJS`,
         short_name: `GatsbyJS`,
-        start_url: `/svhm2/`,
+        start_url: `/toronto/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
@@ -23,6 +23,12 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
         include_favicon: true, // Include favicon
+      },
+    },
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/src/account/pages`,
       },
     },
     {
