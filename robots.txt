@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://shrivitthal.com/sitemap.xml
-Host: https://shrivitthal.com
+Sitemap: https://shrivitthal.github.io/sitemap.xml
+Host: https://shrivitthal.github.io
